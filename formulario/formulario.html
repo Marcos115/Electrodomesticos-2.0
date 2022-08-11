@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./formulario/formulario.html">Registrarse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tema
+        </button>
+        <ul class="dropdown-menu">
+            <li><button id="botonLightMode" class="btn btn-light">Modo Claro</button></li>
+            <li><button id="botonDarkMode" class="btn btn-dark">Modo Oscuro</button></li>
+        </ul>
+    </div>
+
+    <div>
+        <p class="registro"><strong>Registrarse</strong></p>
+    </div>
+    <div class="container">
+        <form id="idForm">
+            <div class="mb-3">
+                <label for="idUser" class="form-label">Usuario: </label>
+                <input type="text" class="form-control" id="idUser" name="user">
+            </div>
+            <div class="mb-3">
+                <label for="idEmail" class="form-label">E-mail: </label>
+                <input type="email" class="form-control" id="idEmail" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="idPassword" class="form-label">Contraseña: </label>
+                <input type="password" class="form-control" id="idPassword" name="password">
+            </div>
+
+            <button type="submit" id="idBoton" class="btn btn-primary">Crear Usuario</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <button id="botonUsers" class="btn btn-dark">Mostrar Usuarios Creados</button>
+        <div id="divUsers" class="row"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>

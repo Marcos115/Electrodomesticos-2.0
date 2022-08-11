@@ -1,0 +1,99 @@
+.productos {
+    background-color: rgb(186, 197, 38);
+    margin: 5px;
+    color: black;
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#parrafo1 {
+    margin-left: 30px;
+}
+
+#idBoton {
+    margin-bottom: 5px;
+}
+
+.card-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#idMostrar {
+    margin: 5px;
+}
+
+.registro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.color {
+    margin-left: 30px;
+}
+
+body {
+    background-color: white;
+    color: black;
+    transition: ease 1s;
+}
+
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
+.dropdown {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.card {
+    color: black;
+    background-color: rgb(25, 85, 109);
+}
+
+.btn-danger {
+    margin: 10px;
+}
+
+.btn-dark {
+    margin: 10px;
+}
+
+.btn-primary {
+    margin-top: 15px;
+}
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.carritoLogos{
+    list-style-type: none;
+}
