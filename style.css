@@ -137,7 +137,7 @@ body {
     height: 60%;
     background: #cf6c65;
     transform: skewY(345deg);
-    transition: 0.75s;
+    transition: 0.50s;
 }
  
 .card:hover::before {
