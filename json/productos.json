@@ -2,19 +2,16 @@
     {
         "nombre": "HELADERA NO FROST SAMSUNG",
         "modelo": "RT38K5932SL FIGITAL INVERTER",
-        "precio": 230.999,
-        "img": "placa.png"
+        "precio": 230.999
     },
     {
         "nombre": "HORNO ELECTRICO WHIRLPOOL",
         "modelo": "AKZM756IX",
-        "precio": 203.599,
-        "img": "memoria.jpg"
+        "precio": 203.599
     },
     {
         "nombre": "AIRE ACONDICIONADO SPLIT PHILCO",
         "modelo": "PHS25HA4CN",
-        "precio": 120.059,
-        "img": "ssd.jpg"
+        "precio": 120.059
     }
 ]
