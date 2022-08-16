@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "HELADERA LG",
+        "precio": 200000,
+        "img": "heladera.jpg"
+    },
+    {
+        "nombre": "LAVARROPAS SAMSUNG",
+        "precio": 120000,
+        "img": "lavarropas.jpg"
+    },
+    {
+        "nombre": "HORNO ATMA",
+        "precio": 60000,
+        "img": "horno.jpg"
+    },
+    {
+        "nombre": "AIRE TCL",
+        "precio": 120000,
+        "img": "aire.jpg"
+    } 
+]

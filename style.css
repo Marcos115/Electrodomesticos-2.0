@@ -1,20 +1,17 @@
 .productos {
     background-color: rgb(186, 197, 38);
-    margin: 5px;
+    margin: 10px;
     color: black;
 }
 
 #productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);   
 }
 
 h1 {
-    margin-bottom: 50px;
-    text-decoration: underline;
-    display: flex;
-    justify-content: center;
+    color: aliceblue;
 }
 
 img {
@@ -73,11 +70,6 @@ body {
     margin-bottom: 10px;
 }
 
-.card {
-    color: black;
-    background-color: rgb(25, 85, 109);
-}
-
 .btn-danger {
     margin: 10px;
 }
@@ -97,3 +89,44 @@ body {
 .carritoLogos{
     list-style-type: none;
 }
+
+.card {
+    color: black;
+    background-color: rgb(21, 78, 105);
+    
+}
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
+
+.card {
+  position: relative;
+  width: 320px;
+  height: 510px;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  width: 1000%;
+  height: 60%;
+  background: #cf6c65;
+  transform: skewY(345deg);
+  transition: 1.50s;
+}
+
+.card:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+
+
+
+
+
+
+
+
+
+
