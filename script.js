@@ -161,6 +161,30 @@ carritoLogo.addEventListener("click", () => {
     })
 })
 
+function comprar() {
+    let botonComprar = document.getElementById("botonComprar")
+    botonComprar.addEventListener("click", () => {
+        if (carrito.length === 0) {
+            Swal.fire({
+                icon: 'error',
+                text: 'El carrito esta vacío',
+            })
+        } else if (carrito.length !== 0) {
+            Swal.fire({
+                icon: 'success',
+                title: '¡Felicidades!',
+                text: 'Compra realizada con éxito',
+            })
+            carrito.splice(0, carrito.length)
+            divCarrito.innerHTML -= ""
+            localStorage.setItem('carrito', JSON.stringify(carrito))
+        }
+    })
+}
+comprar()
+
+//Fetch
+
 const tableId = document.getElementById("tableId")
 const boton1 = document.getElementById("boton1")
 
@@ -175,7 +199,6 @@ async function mostrarProximamente() {
                 <th scope="col">Nombre</th>
                 <th scope="col">Modelo</th>
                 <th scope="col">Precio</th>
-                <th scope="col">Imagen</th>
                 <th scope="col"></th>
             </tr>
         </thead>
@@ -191,11 +214,14 @@ async function mostrarProximamente() {
                 <td>${producto.nombre}</td>
                 <td>${producto.modelo}</td>
                 <td>$${producto.precio}</td>
-                <td><img src="./img/${producto.img}" class = "imagenes"></td>
             </tr>
         `
     })
 }
+
+boton1.addEventListener('click', () => {
+    mostrarProximamente()
+})
 
 //Tema
 

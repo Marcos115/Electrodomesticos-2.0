@@ -1,22 +1,20 @@
 [
     {
-        "nombre": "HELADERA LG",
-        "precio": 200000,
-        "img": "heladera.jpg"
+        "nombre": "HELADERA NO FROST SAMSUNG",
+        "modelo": "RT38K5932SL FIGITAL INVERTER",
+        "precio": 230.999,
+        "img": "placa.png"
     },
     {
-        "nombre": "LAVARROPAS SAMSUNG",
-        "precio": 120000,
-        "img": "lavarropas.jpg"
+        "nombre": "HORNO ELECTRICO WHIRLPOOL",
+        "modelo": "AKZM756IX",
+        "precio": 203.599,
+        "img": "memoria.jpg"
     },
     {
-        "nombre": "HORNO ATMA",
-        "precio": 60000,
-        "img": "horno.jpg"
-    },
-    {
-        "nombre": "AIRE TCL",
-        "precio": 120000,
-        "img": "aire.jpg"
-    } 
+        "nombre": "AIRE ACONDICIONADO SPLIT PHILCO",
+        "modelo": "PHS25HA4CN",
+        "precio": 120.059,
+        "img": "ssd.jpg"
+    }
 ]

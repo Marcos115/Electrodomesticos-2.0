@@ -4,14 +4,20 @@
     color: black;
 }
 
+
 #productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);   
+    grid-template-rows: repeat(3, 1fr);
 }
+
 
 h1 {
     color: aliceblue;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -54,15 +60,21 @@ img {
     margin-left: 30px;
 }
 
+
 body {
     background-color: white;
     color: black;
     transition: ease 1s;
 }
 
-.darkMode {
+.darkMode{
     background-color: black;
     color: white;
+}
+
+.table{
+    color: white;
+    background-color: black;
 }
 
 .dropdown {
@@ -70,16 +82,13 @@ body {
     margin-bottom: 10px;
 }
 
+
 .btn-danger {
     margin: 10px;
 }
 
-.btn-dark {
-    margin: 10px;
-}
-
 .btn-primary {
-    margin-top: 15px;
+    margin: 5px;
 }
 .container-fluid{
     display: flex;
@@ -87,46 +96,51 @@ body {
     margin-bottom: 10px;
 }
 .carritoLogos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
     list-style-type: none;
+}
+
+.botonComprar{
+    margin-left: 10px;
+}
+
+.imagenes {
+    width: 45px;
 }
 
 .card {
     color: black;
     background-color: rgb(21, 78, 105);
-    
+ 
 }
+ 
+.botonComprar {
+    margin-left: 10px;
+}
+ 
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
-
+ 
 .card {
-  position: relative;
-  width: 320px;
-  height: 510px;
-  overflow: hidden;
+    position: relative;
+    width: 320px;
+    height: 510px;
+    overflow: hidden;
 }
-
+ 
 .card::before {
-  content: "";
-  position: absolute;
-  top: 90%;
-  width: 1000%;
-  height: 60%;
-  background: #cf6c65;
-  transform: skewY(345deg);
-  transition: 1.50s;
+    content: "";
+    position: absolute;
+    top: 90%;
+    width: 1000%;
+    height: 60%;
+    background: #cf6c65;
+    transform: skewY(345deg);
+    transition: 0.75s;
 }
-
+ 
 .card:hover::before {
-  top: -70%;
-  transform: skewY(390deg);
+    top: -70%;
+    transform: skewY(390deg);
 }
-
-
-
-
-
-
-
-
-
-
-
