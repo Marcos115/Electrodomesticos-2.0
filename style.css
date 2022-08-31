@@ -67,12 +67,12 @@ body {
     transition: ease 1s;
 }
 
-.darkMode{
+.darkMode {
     background-color: black;
     color: white;
 }
 
-.table{
+.table {
     color: white;
     background-color: black;
 }
@@ -90,19 +90,21 @@ body {
 .btn-primary {
     margin: 5px;
 }
-.container-fluid{
+
+.container-fluid {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
 }
-.carritoLogos{
+
+.carritoLogos {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
     list-style-type: none;
 }
 
-.botonComprar{
+.botonComprar {
     margin-left: 10px;
 }
 
@@ -110,25 +112,25 @@ body {
     width: 45px;
 }
 
-.card {
-    color: black;
-    background-color: rgb(21, 78, 105);
- 
-}
- 
 .botonComprar {
     margin-left: 10px;
 }
- 
+
+.card {
+    color: black;
+    background-color: rgb(21, 78, 105);
+
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
- 
+
 .card {
     position: relative;
     width: 320px;
     height: 510px;
     overflow: hidden;
 }
- 
+
 .card::before {
     content: "";
     position: absolute;
@@ -139,8 +141,9 @@ body {
     transform: skewY(345deg);
     transition: 0.50s;
 }
- 
+
 .card:hover::before {
     top: -70%;
     transform: skewY(390deg);
 }
+
